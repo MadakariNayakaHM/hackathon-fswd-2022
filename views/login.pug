@@ -1,0 +1,17 @@
+extends base
+
+block content
+    .box
+  
+        .page
+            .header
+            a#login.active(href='#login' style="font-size:30px;color:white") login
+           
+            #errorMsg
+        .content
+            form.login(name='loginForm' onsubmit='return validateLoginForm()' method='POST')
+                input(type='email' name='name' placeholder='email'  id="email")
+                input(type='password' name='password' placeholder='Password' id="password")
+                br
+                br
+                input(type='submit' value="submit" )

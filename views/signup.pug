@@ -1,0 +1,16 @@
+extends base
+block content 
+    .box
+       
+        .page
+            .header
+                a#signup(href='#signup') Signup
+                
+            .content
+                form.Signup(name='signupForm' )
+                    input(type='text' placeholder='Name'  required  id="Name")
+                    input(type='email' placeholder='Enter Email'  required id="email")
+                    input(type='password' placeholder='Enter Password' required id="password")
+                    input(type='password' placeholder='Confirm Password'  required id="confirmPassword")
+                    input(type='text' placeholder='Phone Number' required id="phoneNumber") 
+                    button(type='submit' ) Submit

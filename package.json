@@ -1,0 +1,36 @@
+{
+  "name": "code-hackers-fullstack-tyl-hackathon",
+  "version": "1.0.0",
+  "description": "proposed solution for the tyl hackathon on full stacj=k web develpoment even semester 2022",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "MadakariNayaka H M , Krishna kant gupta , Vignesh , Varsha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "html-to-text": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.6",
+    "pug": "^3.0.2",
+    "sanitize": "^2.1.0",
+    "sharp": "^0.30.7",
+    "validator": "^13.7.0",
+    "validators": "^0.3.1",
+    "xss": "^1.0.13",
+    "xss-clean": "^0.1.1"
+  }
+}

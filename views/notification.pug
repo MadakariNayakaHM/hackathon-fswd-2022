@@ -1,0 +1,20 @@
+extends base
+block content 
+    .box
+    .page
+        .header
+        a#createproject.active(href='#announce' style="font-size:50px;color:white;") Make Announcement
+        #errorMsg
+        .content
+        form.createAno(name='loginForm')
+            input(type='text' name='name' placeholder='Write here......' id="notification")
+            br
+            br
+            input(type='submit' value='Submit')
+
+    each  notif in notify
+        .box-container
+            .box-announce
+                h1 Recent Announcements
+                p(style="color:white;")=notif.notification
+        

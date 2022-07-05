@@ -1,0 +1,38 @@
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Project Automation
+  link(rel='stylesheet' href='https://unpkg.com/swiper@7/swiper-bundle.min.css')
+  // font awesome cdn link
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css')
+  // css file link
+  link(rel='stylesheet' href='/css/style.css')
+header
+  #menu-bar.fas.fa-bars
+  a.logo(href='#')
+    span C
+    | ode 
+    span H
+    | ackers
+  nav.navbar
+    a(href='/base') Home
+    a(href='/projects') member/mentor
+    
+    a(href='/notify') Evaluator 
+    a(href='/login') Login
+    a(href='/signUp') signUp
+
+
+section#home.home
+  .content
+    h3(style="text-align:center;") Project process automation and grading Web App
+    //- p(style="text-align:center") Get Connected with Professionals
+    // <a href="" class="btn"></a>
+  block content
+script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js')
+script(src='/js/login.js')
+script(src='/js/signup.js')
+script(src='/js/createproject.js')
+script(src='/js/announcement.js')
+

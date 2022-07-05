@@ -1,0 +1,20 @@
+extends base
+block content
+        .box
+            .page
+                .header
+                a#createproject.active(href='#createproject' style="font-size:50px;color:white") CREATE YOUR PROJECT
+                #errorMsg
+                .content
+                form.create(name='loginForm' )
+                    input#projectName(type='text'  placeholder='Enter Project Name')
+                    input#members(type='text'  placeholder='Team Members Name')
+                    input#protoType(type='text'  placeholder='Github link of the project')
+                    input#mentor(type='text'  placeholder='Mentor Name')
+                    input#grade(type='Number'  placeholder='Grade' min='3' max='10')
+                    br
+                    br
+                    button(type='submit' ) submit
+
+                    
+            
