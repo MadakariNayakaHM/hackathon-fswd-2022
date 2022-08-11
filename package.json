@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "MadakariNayaka H M , Krishna kant gupta , Vignesh , Varsha",
+  "author": "MadakariNayaka H M  , Vignesh , Varsha",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
